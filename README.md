@@ -105,3 +105,37 @@ should create new user
 should delete user
 should update user
 ```
+
+### Twitter Social Sharing
+
+```
+should have <meta name="twitter:card" content="summary">
+should have <meta name="twitter:site" content="">
+should have <meta name="twitter:url" content="">
+should have <meta name="twitter:title" content="Virgin Atlantic &amp; We Work">
+should have <meta name="twitter:description" content="">
+should have <meta name="twitter:image" content="http://www.freelance-flyer.com/video/video.jpg">
+```
+
+### Facebook Social Sharing
+
+```
+should have <meta property="og:title" content="" />
+should have <meta property="og:type" content="website" />
+should have <meta property="og:url" content="" />
+should have <meta property="og:image" content="" />
+should have <meta property="og:description" content="" /> 
+should have <meta property="og:site_name" content="" />
+```
+
+### CRUD [ RESOURCE ]
+
+```
+should create [ RESOURCE ]
+should read [ RESOURCE ]
+should update [ RESOURCE ]
+should delete [ RESOURCE ]
+```
+
+
+
