@@ -4,7 +4,7 @@ Are there a set of unit tests that we could share across standard web apps?
 
 ### TOC
 1. Accessibility
-2. TBD
+2. User Authentication
 
 ### Accessibility
 
@@ -47,5 +47,20 @@ should have a suitable contrast
 should work with a screen reader
 should be able to navigate with a keyboard only
 ```
+
+### User Authentication
+
+```
+should log in
+should sign up
+should log out
+should reset password
+should refresh token
+should create new user
+should delete user
+should update user
+```
+
+
 
 
