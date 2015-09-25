@@ -1,6 +1,6 @@
 # common-tests
 
-Are there a set of tests that we could share across great web apps? 
+Boilerplate Tests that we should add to every single great web app.
 
 ### TOC
 1. [Accessibility](#acessibility)
