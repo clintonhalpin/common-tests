@@ -6,6 +6,9 @@ Boilerplate Tests that we should add to every single great web app.
 1. [Accessibility](#acessibility)
 2. [Performance](#performance)
 3. [User Authentication](#user-authentication)
+4. [Twitter Social Sharing](#twitter-social-sharing)
+5. [Facebook Social Sharing](#facebook-social-sharing)
+6. [CRUD](#crud)
 
 ### Accessibility
 
@@ -128,7 +131,7 @@ should have <meta property="og:description" content="" />
 should have <meta property="og:site_name" content="" />
 ```
 
-### CRUD [ RESOURCE ]
+### Crud
 
 ```
 should create [ RESOURCE ]
@@ -136,6 +139,3 @@ should read [ RESOURCE ]
 should update [ RESOURCE ]
 should delete [ RESOURCE ]
 ```
-
-
-
