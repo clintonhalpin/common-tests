@@ -5,6 +5,7 @@ Are there a set of tests that we could share across great web apps?
 ### TOC
 1. [Accessibility](#acessibility)
 2. [User Authentication](#user-authentication)
+3. [Performance](#performance)
 
 ### Accessibility
 
@@ -67,6 +68,38 @@ should delete user
 should update user
 ```
 
+### Performance
 
+Stolen from [Google PageSpeed](https://developers.google.com/speed/pagespeed/?hl=en)
 
-
+```
+should Avoid CSS @import
+should Avoid a character set in the meta tag
+should Avoid bad requests
+should Avoid landing page redirects
+should Combine images into CSS sprites
+should Enable Keep-Alive
+should Inline Small CSS
+should Inline Small JavaScript
+should Minify CSS
+should Minify HTML
+should Optimize images
+should Optimize the order of styles and scripts
+should Prefer asynchronous resources
+should Put CSS in the document head
+should Put JS at the end of the document body
+should Serve resources from a consistent URL
+should Specify a character set
+should Minimize redirects
+should Minimize payload 
+should Enable compression
+should Serve scaled images
+should Minimize delay in page load 
+should Minimize request size
+should Specify image dimensions
+should Defer parsing of JavaScript
+should Leverage browser caching
+should Specify a cache validator
+should Remove query strings from static resources
+should Specify a Vary: Accept-Encoding header
+```
