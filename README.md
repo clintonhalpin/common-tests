@@ -4,8 +4,8 @@ Boilerplate Tests that we should add to every single great web app.
 
 ### TOC
 1. [Accessibility](#acessibility)
-2. [User Authentication](#user-authentication)
-3. [Performance](#performance)
+2. [Performance](#performance)
+3. [User Authentication](#user-authentication)
 
 ### Accessibility
 
@@ -55,19 +55,6 @@ should work with a screen reader
 should be able to navigate with a keyboard only
 ```
 
-### User Authentication
-
-```
-should log in
-should sign up
-should log out
-should reset password
-should refresh token
-should create new user
-should delete user
-should update user
-```
-
 ### Performance
 
 Stolen from [Google PageSpeed](https://developers.google.com/speed/pagespeed/?hl=en)
@@ -102,4 +89,19 @@ should Leverage browser caching
 should Specify a cache validator
 should Remove query strings from static resources
 should Specify a Vary: Accept-Encoding header
+```
+
+## Features
+
+### User Authentication
+
+```
+should log in
+should sign up
+should log out
+should reset password
+should refresh token
+should create new user
+should delete user
+should update user
 ```
