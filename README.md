@@ -1,10 +1,10 @@
 # common-tests
 
-Are there a set of unit tests that we could share across standard web apps? 
+Are there a set of tests that we could share across great web apps? 
 
 ### TOC
-1. Accessibility
-2. User Authentication
+1. [Accessibility](#acessibility)
+2. [User Authentication](#user-authentication)
 
 ### Accessibility
 
@@ -24,10 +24,16 @@ should have language specified on <html>
 
 # Document Outline
 
+should have title attribute
+should have description attribute
 links should have :focus state 
 links should have :hover state 
 links should have :active state
 images should have alt text
+
+# Routes
+
+[ routes ] should be accessible by a URL
 
 # Javascript 
 
