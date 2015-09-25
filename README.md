@@ -8,7 +8,7 @@ Are there a set of unit tests that we could share across standard web apps?
 
 ### Accessibility
 
-Stolen from (http://a11yproject.com/checklist.html)[http://a11yproject.com/checklist.html]
+Stolen from [A11yproject Checklist](http://a11yproject.com/checklist.html)
 
 ```
 # Aria Tests
