@@ -13,10 +13,8 @@ Stolen from [A11yproject Checklist](http://a11yproject.com/checklist.html)
 ```
 # Aria Tests
 
-should have HTML element with role="banner"
 should have HTML element with role="navigation"
 should have HTML element with role="main"
-should have HTML element with role="contentinfo"
 
 # Language
 
