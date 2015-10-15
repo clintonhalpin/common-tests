@@ -16,16 +16,13 @@ Stolen from [A11yproject Checklist](http://a11yproject.com/checklist.html)
 
 ```
 # Aria Tests
-
 should have HTML element with role="navigation"
 should have HTML element with role="main"
 
 # Language
-
 should have language specified on <html> 
 
 # Document Outline
-
 should have title attribute
 should have description attribute
 links should have :focus state 
@@ -34,26 +31,21 @@ links should have :active state
 images should have alt text
 
 # Routes
-
-[ routes ] should be accessible by a URL
+...routes should be accessible via a URL
+...routes.states should be accessible via a URL
 
 # Javascript 
-
-should render something without javascript
+should render something basic without javascript
 
 # Forms
-
-should be able to tab all form elements
-should have label for all form controls (e.g. input, select etc.)
+should be able to tab between form elements
+should have label for between form controls (e.g. input, select etc.)
 
 # Contrast
-
 should have a suitable contrast
 
 # Devices
-
 should work with a screen reader
-should be able to navigate with a keyboard only
 ```
 
 ### Performance
@@ -63,7 +55,7 @@ Stolen from [Google PageSpeed](https://developers.google.com/speed/pagespeed/?hl
 ```
 should Avoid CSS @import
 should Avoid a character set in the meta tag
-should Avoid bad requests
+should not have bad requests
 should Avoid landing page redirects
 should Combine images into CSS sprites
 should Enable Keep-Alive
@@ -101,7 +93,7 @@ should log in
 should sign up
 should log out
 should reset password
-should refresh token
+should refresh [authentication method (token or cookie) ]
 should create new user
 should delete user
 should update user
