@@ -113,9 +113,9 @@ should update user
 should have <meta name="twitter:card" content="summary">
 should have <meta name="twitter:site" content="">
 should have <meta name="twitter:url" content="">
-should have <meta name="twitter:title" content="Virgin Atlantic &amp; We Work">
+should have <meta name="twitter:title" content="">
 should have <meta name="twitter:description" content="">
-should have <meta name="twitter:image" content="http://www.freelance-flyer.com/video/video.jpg">
+should have <meta name="twitter:image" content="">
 ```
 
 ### Facebook Social Sharing
